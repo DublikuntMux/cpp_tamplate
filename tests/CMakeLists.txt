@@ -13,7 +13,6 @@ add_executable(LIB_TESTS ${tests_sources})
 set_target_properties(LIB_TESTS PROPERTIES VERSION ${PROJECT_VERSION})
 set_target_properties(LIB_TESTS PROPERTIES SOVERSION 1)
 
-include(FetchContent)
 FetchContent_Declare(
         googletest
         GIT_REPOSITORY https://github.com/google/googletest.git
