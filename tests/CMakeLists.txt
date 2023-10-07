@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 3.25.0)
 
 project(LIB_TESTS
         VERSION 1.0.1
-        DESCRIPTION "Dublikunt asset server tests"
+        DESCRIPTION "LIB_NAME tests"
         LANGUAGES CXX
 )
 
